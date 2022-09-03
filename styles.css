@@ -1,0 +1,283 @@
+body {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.big-heading{
+    font-family: 'Aboreto', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+.small-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #66BFBF;
+}
+
+p{
+    color: #40514E;
+    line-height: 2;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Sections Background */
+
+.coloured-section{
+    background-color: #EAF6F6;
+}
+
+.white-section{
+    background-color: white;
+}
+
+
+/* Title Section */
+
+#title .container-fluid{
+    padding: 3% 15% 0;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.mountain{
+    width: 60%;
+
+}
+
+
+/* Profile Section */
+
+#profile{
+    padding: 7% 15%;
+}
+
+.description{
+    padding: 3% 25%;
+}
+
+
+/* Skills Section */
+
+.skills-box{
+    text-align: left;
+    line-height: 2;
+    padding-bottom: 5%;
+}
+
+.skills-box-2{
+    text-align: left;
+    line-height: 2;
+    padding: 1% 10% 0 0;
+}
+
+.row{
+    padding-top: 5%;
+}
+
+img.logo{
+    width: 40%;
+    text-align: right;
+    display: block;
+    margin: 0 auto;
+}
+
+.content-title{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    font-size: 120%;
+    padding: 3% 0;
+}
+
+.table-border{
+    background-color: white;
+    width: 100%;
+    border-radius: 3%;
+    padding: 7% 0;
+}
+
+
+/* Contact Section */
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 50px auto auto auto;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+
+/* Footer Section */
+
+#footer{
+    padding: 0 10%;
+}
+
+
+.footer-link{
+    color: black;
+    margin: 20px 10px;
+    font-size: 1rem;
+}
+
+.footer-text{
+    font-size: 0.75rem;
+    padding: 5% 0;
+}
+
+
+/* Media */
+
+@media (max-width: 1028px){
+    .big-heading{
+        font-size: 4.5rem;
+    }
+
+    .mountain{
+        width: 80%;
+    }
+
+    .description{
+        padding: 3% 15%;
+    }
+
+    .skills-box-2{
+        text-align: center;
+        padding: 0 5%;
+    }
+
+    .skills-box{
+        padding: 5% 0;
+    }
+
+}
+
+
+/****** Project HTML ******/
+/* Title Section */
+
+#project-title .container-fluid{
+    padding: 3% 15% 0;
+}
+
+#project-title .big-heading{
+    font-size: 3.5rem;
+}
+
+#project-title .mountain{
+    width: 45%;
+}
+
+
+/* Pencil Section */
+
+.pencil-logo{
+    width: 8%;
+    margin: 0 auto 5% auto;
+}
+
+
+/* Space Projects Section */
+
+.space-website{
+    text-decoration: none;
+    color: #66BFBF;
+}
+
+.space-website:hover{
+    color: black;
+}
+
+.space-image{
+   width: 70%;
+   padding: 5% 0;
+}
+
+
+/* Pomodoro Project Section */
+
+.pomodoro-image{
+   width: 50%;
+   padding: 5% 0;
+}
+
+
+@media (max-width: 1028px){
+    #project-title .big-heading{
+        font-size: 2.5rem;
+}
+
+    #project-title .mountain{
+        width: 80%;
+}
+
+    .description{
+        padding: 3% 15%;
+        font-size: 0.75rem;
+    }
+
+    .pencil-logo{
+        width: 20%;
+        margin: 7%;
+}
+
+    #space-project .small-heading{
+        font-size: 1.5rem;
+        padding: 5% 0;
+    }
+
+    #pomodoro-project .small-heading{
+        font-size: 1.5rem;
+        padding: 5% 0;
+    }
+
+
+}
