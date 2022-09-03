@@ -202,7 +202,10 @@ img.logo{
     .skills-box{
         padding: 5% 0;
     }
-
+    
+    img.logo{
+        width: 20%;
+    }
 }
 
 
