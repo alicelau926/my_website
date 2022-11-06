@@ -154,6 +154,11 @@ img.logo{
   text-decoration: none;
 }
 
+.link{
+    text-decoration: none;
+    color: red;
+}
+
 
 /* Footer Section */
 
@@ -180,7 +185,7 @@ img.logo{
     .big-heading{
         font-size: 3.5rem;
     }
-    
+
     .small-heading{
         font-size: 1.5rem;
     }
@@ -202,7 +207,7 @@ img.logo{
     .skills-box{
         padding: 5% 0;
     }
-    
+
     img.logo{
         width: 20%;
     }
