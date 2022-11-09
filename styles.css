@@ -141,7 +141,7 @@ img.logo{
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  margin: 50px auto auto auto;
+
 }
 
 .btn:hover {
@@ -194,6 +194,11 @@ img.logo{
         width: 80%;
     }
 
+    .pp{
+        padding-top: 5%;
+        width: 40%;
+    }
+
     .description{
         padding: 3% 15%;
         font-size: 0.75rem;
@@ -210,6 +215,19 @@ img.logo{
 
     img.logo{
         width: 20%;
+    }
+
+    .content-title{
+        font-size: 100%;
+    }
+
+    .btn{
+        margin-top: 3%;
+        font-size: 0.75rem;
+    }
+
+    .footer-text{
+        font-size: 0.65rem;
     }
 }
 
@@ -266,11 +284,11 @@ img.logo{
 @media (max-width: 1028px){
     #project-title .big-heading{
         font-size: 2.5rem;
-}
+    }
 
     #project-title .mountain{
         width: 80%;
-}
+    }
 
     .des{
         padding: 3% 15%;
@@ -278,18 +296,12 @@ img.logo{
     }
 
     .pencil-logo{
-        width: 20%;
-        margin: 7%;
-}
-
-    #space-project .small-heading{
-        font-size: 1.5rem;
-        padding: 5% 0;
+        width: 10%;
+        margin: 7% auto 7% auto;
     }
 
-    #pomodoro-project .small-heading{
-        font-size: 1.5rem;
-        padding: 5% 0;
+    .project-small-heading{
+        font-size: 1rem;
     }
 
 
