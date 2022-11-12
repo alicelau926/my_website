@@ -222,7 +222,8 @@ img.logo{
 
     .pp{
         padding-top: 5%;
-        width: 40%;
+        width: 100px;
+        height: 100px;
     }
 
     .description{
