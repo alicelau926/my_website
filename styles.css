@@ -83,6 +83,32 @@ p{
     padding: 3% 25%;
 }
 
+.pp{
+    width: 200px;
+    height: 200px;
+    background-image: url("profilepic.jpg");
+    background-repeat: no-repeat;
+    border-radius: 45% 55% 70% 28% / 45% 40% 55% 48%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px rgb(255, 255, 255, 0.25);
+    animation: bold 2s linear infinite;
+    margin-bottom: 3%;
+}
+
+@keyframes bold{
+    0%, 100%{
+        border-radius: 45% 55% 70% 28% / 45% 40% 55% 48%;
+    }
+    40%{
+        border-radius: 45% 30% 35% 48% / 28% 20% 70% 70%;
+    }
+    80%{
+        border-radius: 100% 50% 50% 100%/ 100% 100% 50% 50%;
+    }
+}
+
 
 /* Skills Section */
 
