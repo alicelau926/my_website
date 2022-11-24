@@ -285,7 +285,7 @@ background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
     }
 
     .pp{
-        padding-top: 5%;
+        margin-top: 5%;
         width: 100px;
         height: 100px;
         border-radius: 50%;
